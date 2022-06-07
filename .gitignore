@@ -8,3 +8,4 @@ data/zones/taxi_zones.zip
 data/trips/fhv_tripdata_2019-01.parquet
 data/trips/green_tripdata_2019-01.parquet
 data/trips/yellow_tripdata_2019-01.parquet
+.gitignore
