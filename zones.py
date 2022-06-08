@@ -39,7 +39,7 @@ def plotZones():
     plt.show()
 
 def latlonToZoneId(lon, lat):
-    x, y = lon, lat
+    x, y = lat, lon
     point = Point(x, y)
 
     # find the zone that contains the point
