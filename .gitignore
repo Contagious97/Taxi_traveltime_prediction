@@ -4,7 +4,6 @@ data/zones/taxi_zones.sbn
 data/zones/taxi_zones.sbx
 data/zones/taxi_zones.shp.xml
 data/zones/taxi_zones.shx
-data/zones/taxi_zones.zip
 data/trips/fhv_tripdata_2019-01.parquet
 data/trips/green_tripdata_2019-01.parquet
 data/trips/yellow_tripdata_2019-01.parquet

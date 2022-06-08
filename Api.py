@@ -34,13 +34,13 @@ class TaxiPrediction(Resource):
         response = json.loads(call.text)
         features = response['features'][0]
         print(features)
-        summary = features['summary']
-        distanceMeters = summary["distance"]
-        distanceMiles = distanceMeters*0.0006213712
+        #summary = features['summary']
+        #distanceMeters = summary["distance"]
+        #distanceMiles = distanceMeters*0.0006213712
         requestTime = datetime.now().time()
         #request time to seconds
         requestTimeSeconds = requestTime.hour * 3600 + requestTime.minute * 60 + requestTime.second
-        travel_time = model.predict([[requestTime, distanceMiles,latlonToZoneId(fromLon,fromLat), latlonToZoneId(toLon,toLat)]])
+        #travel_time = model.predict([[requestTime, distanceMiles,latlonToZoneId(fromLon,fromLat), latlonToZoneId(toLon,toLat)]])
         return 50
 
     def post(self):
