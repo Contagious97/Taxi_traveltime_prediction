@@ -27,3 +27,7 @@ data/trips/yellow_tripdata_2019-01.parquet
 /data/trips/yellow_tripdata_2019-08.parquet
 /data/trips/yellow_tripdata_2019-09.parquet
 /data/trips/yellow_tripdata_2019-10.parquet
+/data/trips/green_tripdata_2019-11.parquet
+/data/trips/green_tripdata_2019-12.parquet
+/data/trips/yellow_tripdata_2019-11.parquet
+/data/trips/yellow_tripdata_2019-12.parquet
