@@ -38,19 +38,6 @@ def plotZones():
             plt.plot(x,y)
     plt.show()
 
-def latlonToZoneId(lon, lat):
-    x, y = lon, lat
-    point = Point(x, y)
-
-    # find the zone that contains the point
-    for sr in __sf.shapeRecords():
-        sr: shp.ShapeRecord
-        shape: shp.Shape = sr.shape
-        polygon = Polygon(shape.points)
-        if polygon.contains(point):
-            return sr.record[0]
-
-    return None
 
 # plotZones()
 # print(latlonToZoneId(-74.012130, 40.692293))

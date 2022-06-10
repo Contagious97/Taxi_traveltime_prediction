@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f62c9f1-cee8-42a1-b534-1e5d3edc2f74" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.py" beforeDir="false" afterPath="$PROJECT_DIR$/Api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Taxi_fare_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Taxi_fare_model.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/model.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zones.py" beforeDir="false" afterPath="$PROJECT_DIR$/zones.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,14 +23,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/robii/Taxi_traveltime_prediction/data/trips"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/robii/Taxi_traveltime_prediction/data/trips&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\robii\Taxi_traveltime_prediction\data\trips" />
@@ -43,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654765215413</updated>
-      <workItem from="1654765217610" duration="26042000" />
+      <workItem from="1654765217610" duration="29229000" />
     </task>
     <servers />
   </component>
@@ -66,7 +67,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>notebook://C:/Users/robii/Taxi_traveltime_prediction/Taxi_fare_model.ipynb</url>
-          <line>166</line>
+          <line>154</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
